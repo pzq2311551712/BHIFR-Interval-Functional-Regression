@@ -3,7 +3,7 @@
 This repository contains the R implementation and data to reproduce the results of the paper:
 
 > **Title:** Efficient Bayesian Hierarchical Regression for Interval-Valued Functional Data
-> **Authors:** Chunjing Li, Zhenqiang Pang, Xiaohui Yuan
+> **Authors:** Chunjing Li, Zhenqiang Pang, Xiaogang Dong
 > **Status:** [Under Review]
 
 ## 🚀 Overview
@@ -88,4 +88,5 @@ This project is licensed under the **MIT License**. See the `LICENSE` file for d
 
 If you use this code or data in your research, please cite our paper:
 
-> Li, C., Pang, Z., & Yuan, X. (2025). Efficient Bayesian Hierarchical Regression for Interval-Valued Functional Data. *Submitted for publication*.
+> Li, C., Pang, Z., & Dong, X. (2025). Efficient Bayesian Hierarchical Regression for Interval-Valued Functional Data. *Submitted for publication*.
+
