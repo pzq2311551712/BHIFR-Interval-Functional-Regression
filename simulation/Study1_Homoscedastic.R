@@ -1,11 +1,11 @@
 # ==============================================================================
 # BHIFR Simulation Study 1: Homoscedastic Scenario
-# Description: Exact Methodology Replication (Synced with Study 2)
+# Description: Exact Methodology Replication 
 #              Algorithm: Dense Matrix Kronecker + Logit Lambda + Component-wise Adaptive MALA
 # ==============================================================================
 
 rm(list=ls())
-set.seed(123) # Global seed for reproducibility
+set.seed(123) 
 
 # ==============================================================================
 # 0. Environment Setup
@@ -39,7 +39,7 @@ theme_paper <- function() {
 }
 
 # ==============================================================================
-# 1. C++ Core Implementation (Synced with Study 2)
+# 1. C++ Core Implementation 
 # ==============================================================================
 cpp_code_string <- '
 // [[Rcpp::depends(RcppArmadillo)]]
@@ -726,5 +726,6 @@ p_combined_final <- (
   )
 
 ggsave("Fig1.eps", plot=p_combined_final, width=WIDTH_DOUBLE, height=6, device=cairo_ps)
+
 
 cat("Done! Figure 1 saved.\n")
