@@ -1,10 +1,10 @@
 # ==============================================================================
-# S-BHIFR Empirical Study: Ireland Weather Data (Complete & Final)
+# BHIFR Empirical Study: Ireland Weather Data (Complete & Final)
 # Journal Target: Statistics and Computing (Ultimate Minimalist Style)
 # Outputs: 
 #   - Table 1 (CV IMSPE)
 #   - Table 2 (Posterior Scalars)
-#   - Fig9 - Fig13 (EPS Format, NPG Colors, Math Symbols)
+#   - Fig3 - Fig5 
 # ==============================================================================
 
 rm(list=ls())
@@ -24,7 +24,7 @@ mm_to_inch <- 0.0393701
 WIDTH_SINGLE <- 84 * mm_to_inch   # ~3.3 inch
 WIDTH_DOUBLE <- 174 * mm_to_inch  # ~6.85 inch
 
-# --- Theme: Ultimate Minimalist (Synced with Study 3) ---
+# --- Theme: Ultimate Minimalist---
 theme_elegant_journal <- function() {
   theme_classic(base_family = "sans", base_size = 10) + 
     theme(
